@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins, sans-serif;
+}
+
+body{
+    background-color: #b9b9b9;
+}
+
+.myToDoList {
+    width: 100%;
+    height: auto;
+    padding: 50px 0 100px;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.container {
+    width: 40%;
+    margin: 0 auto;
+}
+
+.input {
+    width: 100%;
+    padding: 30px 20px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.4);
+    text-align: center;
+    margin: 20px 0;
+}
+
+.input label {
+    font-size: 30px;
+    font-weight: 500;
+    color: blue;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-inside {
+    width: 100%;
+    position: relative;
+}
+
+.input-inside input {
+    width: 100%;
+    padding: 10px 150px 10px 20px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: #f1f1f1;
+    color: black;
+    font-size: 15px;
+}
+
+.input-inside input::placeholder {
+    font-size: 16px;
+    color: rgb(70, 70, 70);
+}
+
+.addBtn {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    bottom: 5px;
+    width: 150px;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: blue;
+    cursor: pointer;
+}
+
+.addBtn2 {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    bottom: 5px;
+    width: 150px;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    color: black;
+    background-color: yellow;
+    cursor: pointer;
+}
+
+.ss {
+    width: 50%;
+}
+
+th {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 2px;
+    padding: 5px 20px;
+    background-color: #fff;
+}
+
+#tbody tr td {
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 3px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+.update {
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: black;
+    background-color: yellow;
+    border: none;
+    cursor: pointer;
+}
+
+#tbody i {
+    margin: 0 auto;
+    font-size: 15px;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.4s ease-in-out;
+}
+
+#tbody i:hover {
+    background-color: #f1f1f1;
+}
+
+.deleteAll{
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color: red;
+    cursor: pointer;
+    font-size: 15px;
+    margin-top: 10px;
+    transition: all 0.4s ease-in-out;
+}
+
+@media screen and (max-width:576px){
+    .container{
+        width: 97%;
+    }
+}
